@@ -1,0 +1,1 @@
+Hi there! My name is Francesco and I enjoy designing and building all things mechanical. I sometimes also work on software projects, like this website! My interest in mechanical things started at a youg age while working on my granpa's tractor in my home country Italy. Little did I know that interest now feuels my passion for engineering and design.

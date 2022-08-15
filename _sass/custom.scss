@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Athiti&family=Palanquin&family=Poppins:wght@400;600&family=Raleway:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+// Fonts
+$base-font-family: "Source Sans Pro", sans-serif;
+$base-font-weight: 400 !default;
+$mobile-menu-transition: 0.5s;
+$border-radius-cards: 15px;
+
+//colors
+body {
+    --primary-color: #286181;
+    --pop-color: #268796;
+    --dark-color: #091c2d;
+
+    --mobile-menu-color: #091c2de1;
+    --cta-color: var(--pop-color);
+    --text-color: black;
+    --textinverse-color: white;
+    --link-color: var(--primary-color);
+    --background-color: #f2f2f2;
+    --backgrounddark-color: #dfdfdf;
+    --navbar-background: #f2f2f2c7;
+}
+
+body.dark {
+    --primary-color: #99ddff;
+    --pop-color: #3fd2c7;
+    --dark-color: #091c2d;
+
+    --mobile-menu-color: #122a3ee1;
+    --cta-color: var(--pop-color);
+    --text-color: white;
+    --textinverse-color: var(--dark-color);
+    --link-color: var(--primary-color);
+    --background-color: var(--dark-color);
+    --backgrounddark-color: #173148;
+    --navbar-background: #091c2dd5;
+}
+
+$pop1-color: #abd740;
+$pop2-color: #a4d32e;
+$pop3-color: #57c891;
+$bluelight-1color: #41c0b0;
+$bluelight2-color: #3ebed3;
+$bluedark1-color: #386693;
+$bluedark2-color: #013261;
+$bluedark3-color: #041339;
+
+// Width of the content area
+$content-width: 800px !default;
+$bigger-then-palm: 768px !default;
+$bigger-then-tablet: 1080px !default;
+$bigger-then-laptop: 1450px !default;
+
+@mixin media-query($device) {
+    @media only screen and (min-width: $device) {
+        @content;
+    }
+}
+
+@import "custom/base", "custom/layout", "custom/media-query";

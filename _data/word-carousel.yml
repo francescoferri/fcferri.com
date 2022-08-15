@@ -1,0 +1,13 @@
+# MAX of 4 for now! if in need of more, go change the keyframes in _layout.scss.carousel
+
+- title: designing
+  link: /#work-home
+
+- title: building
+  link: /#work-home
+
+- title: windsurfing
+  link: /#about-me
+
+- title: photography
+  link: /#about-me

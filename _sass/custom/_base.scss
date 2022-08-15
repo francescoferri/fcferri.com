@@ -1,0 +1,100 @@
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--background-color);
+    margin: 0;
+    font-family: $base-font-family;
+}
+
+body::-webkit-scrollbar {
+    width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--background-color); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color); /* color of the scroll thumb */
+}
+
+body.stop-transitions * {
+    transition: none !important;
+}
+
+section {
+    padding: 4em 2em;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h5,
+h6 {
+    font-size: 1em;
+    font-weight: $base-font-weight;
+}
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    a {
+        color: var(--text-color);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:visited,
+    &:active {
+        text-decoration: none;
+    }
+}
+
+a.classic-cta {
+    background-color: transparent;
+    color: var(--cta-color);
+    border: 0.1em solid var(--cta-color);
+    padding: 0.5em 1em;
+    font-size: 17px;
+    border-radius: 0.5em;
+    text-align: center;
+
+    &:hover {
+        text-decoration: none;
+        background-color: var(--cta-color);
+        color: var(--textinverse-color);
+    }
+}
+
+.svg-icon {
+    fill: var(--text-color);
+}

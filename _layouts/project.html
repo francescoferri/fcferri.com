@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<p>Back to <a href="{% link _pages/projects.md %}">Projects</a></p>
+
+<h1>Show: {{ page.title }}</h1>
+
+<p class="post-meta">
+    <time>{{ page.date | date: "%b %-d, %Y" }}</time>
+</p>
+
+{{ content }}

@@ -1,0 +1,17 @@
+email:
+    id: "fcferri@outlook.com"
+    href: "mailto:"
+    title: "Email"
+    fa-icon: "fa-envelope"
+
+linkedin:
+    id: "fcferri"
+    href: "https://www.linkedin.com/"
+    title: "LinkedIn"
+    fa-icon: "fa-linkedin"
+
+github:
+    id: "francescoferri"
+    href: "https://github.com/"
+    title: "GitHub"
+    fa-icon: "fa-github"

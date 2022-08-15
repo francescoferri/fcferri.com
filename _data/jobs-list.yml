@@ -1,0 +1,26 @@
+- title: Mechanical Engineering Intern
+  link: https://www.study-build.com/
+  company-name: Study-Build
+  id: study-build
+  range: May 2021 - Dec 2021
+  bullets:
+      - Developed paper loading machine to streamline production of thermally performant cardboard boxes, reducing use of EPS packaging in seafood industry
+      - Used DFM/A principles to design gantry structure of paper loading machine, decreasing manufacturing costs during CNC machining and 3D printing
+      - Designed modular storage platform for electronics, servers and office supplies, allowing users to customize storage modules based on their needs
+
+- title: Repair Technician
+  link: https://ubreakifix.com/
+  company-name: UbreakIfix
+  id: ubreakifix
+  range: May 2020 - Aug 2021
+  bullets:
+      - Collaborated with a team of 5 technicians to design flowcharts tailored to manufacturer’s specific repair procedures, reducing repair times and human error, adding to training tools for new staff.
+      - Managed daily repair cues to deliver reliable repairs on time, ensuring customer satisfaction with average repair time of 2 hours
+
+- title: Sailing Instructuor
+  link: https://goo.gl/maps/v2U6X1iFwGTdTewJ6
+  company-name: Sailing School
+  id: sailing-school
+  range: May 2020 - Aug 2021
+  bullets:
+      - Performed maintenance on Lasers using composite materials for structural components, refurbishing school’s fleet; implemented quality control measures and cost analysis to determine repair approach

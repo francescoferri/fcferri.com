@@ -1,0 +1,296 @@
+@include media-query($bigger-then-palm) {
+    .mobile-menu-open,
+    .mobile-menu-close {
+        display: none;
+    }
+
+    .nav-container {
+        display: grid;
+        justify-content: unset;
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            transition: none;
+            transform: translateX(0%);
+            background: none;
+            position: unset;
+            height: auto;
+            width: 100%;
+            padding: 0;
+            padding-left: 1em;
+
+            a {
+                color: var(--text-color);
+                text-align: center;
+                align-items: center;
+                padding: 0em 1em;
+            }
+
+            ul {
+                display: flex;
+                margin: 0;
+                align-items: center;
+            }
+
+            .theme-cv-wrapper {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .theme-selector {
+                margin-top: 0em;
+
+                .night-light-label {
+                    border: 2px solid var(--text-color);
+
+                    .sun-svg {
+                        fill: var(--text-color);
+                    }
+                    .moon-svg {
+                        fill: var(--text-color);
+                    }
+                    .night-light-ball {
+                        background: var(--text-color);
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        padding: 4em 4em;
+    }
+
+    .hero {
+        .left-col {
+            img {
+                width: 400px;
+            }
+        }
+    }
+
+    .work-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .work-inner {
+            width: 650px;
+        }
+    }
+
+    .projects-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .projects-wrapper {
+            width: 600px;
+        }
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .about-me-wrapper {
+            width: 600px;
+
+            .fun-section {
+                display: flex;
+                flex-direction: row;
+                .left-col,
+                .right-col {
+                    position: relative;
+                    width: 100%;
+                    height: 40vh;
+                }
+
+                .feat-title {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgba(0, 0, 0, 0.316);
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0;
+                    a {
+                        color: white;
+                    }
+                }
+
+                .feat-img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .projects-page {
+        .projects-wrapper {
+            h2 {
+                text-align: left;
+            }
+
+            .featured-project {
+                flex-direction: row;
+
+                .feat-img {
+                    flex: 1;
+                    width: 40%;
+                    overflow: hidden;
+
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                    }
+                }
+
+                .feat-text {
+                    flex: 1;
+                }
+            }
+        }
+    }
+}
+
+@include media-query($bigger-then-tablet) {
+    .nav-container {
+        .nav-wrapper {
+            width: 1033px;
+            margin: 0 auto;
+        }
+    }
+
+    .hero-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        width: 900px;
+        margin: 0 auto;
+
+        .right-col {
+            align-items: flex-start;
+            padding: 0em 2em;
+
+            .hero-text {
+                overflow: hidden;
+
+                h1 {
+                    text-align: left;
+                    font-weight: 300;
+                    margin: 0.3em 0em;
+
+                    span {
+                        font-weight: 400;
+                    }
+                }
+
+                p {
+                    text-align: left;
+                    font-size: 1.4em;
+                    margin: 0.3em 0em;
+                }
+
+                .carousel {
+                    justify-content: left;
+                }
+            }
+
+            .hero-cta {
+                font-size: 1.1em;
+                margin-top: 1.5em;
+            }
+        }
+    }
+
+    .projects-home {
+        .projects-wrapper {
+            display: flex;
+            flex-direction: row;
+            place-content: space-between;
+            width: 1033px;
+
+            .featured-project {
+                width: 330px;
+                overflow-x: hidden;
+                .feat-img {
+                    img {
+                        height: 30vh;
+                        width: max-content;
+                    }
+                }
+            }
+        }
+
+        .projects-redirect {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .about-me {
+        .about-me-wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 1033px;
+            height: 65vh;
+
+            .about-me-text {
+                width: 50%;
+            }
+
+            .fun-section {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                .left-col,
+                .right-col {
+                    height: 50%;
+                }
+            }
+        }
+    }
+
+    .projects-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .projects-wrapper {
+            width: 1033px;
+
+            h2 {
+                text-align: left;
+            }
+            .featured-project {
+                flex-direction: row;
+
+                .feat-img {
+                    flex: 1;
+                    width: 40%;
+                    overflow: hidden;
+
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                    }
+                }
+
+                .feat-text {
+                    flex: 1;
+                }
+            }
+        }
+    }
+}
