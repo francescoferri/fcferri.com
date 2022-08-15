@@ -191,8 +191,8 @@ m1651 102 c68 -30 110 -77 116 -132 5 -39 2 -48 -27 -81 -18 -20 -49 -46 -70
 </section>
 
 <section id="projects-home" class="projects-home">
+    <h2>What I've Built</h2>
     <div class="projects-wrapper">
-        <h2>What I've Built</h2>
         {% assign sorted_projects = site.projects | sort: 'date' | reverse %} {%
         for project in sorted_projects limit:3 %}
         <div class="featured-project">
