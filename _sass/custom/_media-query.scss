@@ -162,6 +162,10 @@
             }
         }
     }
+
+    .project-post-image {
+        width: 75%;
+    }
 }
 
 @include media-query($bigger-then-tablet) {
@@ -302,5 +306,9 @@
         .project-post-wrapper {
             width: 1033px;
         }
+    }
+
+    .project-post-image {
+        width: 60%;
     }
 }
