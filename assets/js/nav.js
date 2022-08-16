@@ -7,18 +7,15 @@ var lastScroll,
 
 mobileButtonOpen.addEventListener("click", () => {
     nav.classList.add("mobile-menu-active");
-    navContainer.style.overflow = "visible";
 });
 
 mobileButtonClose.addEventListener("click", () => {
     nav.classList.remove("mobile-menu-active");
-    navContainer.style.overflow = "hidden";
 });
 
 document.querySelectorAll(".nav-menu-item").forEach((item) => {
     item.addEventListener("click", (event) => {
         nav.classList.remove("mobile-menu-active");
-        navContainer.style.overflow = "hidden";
     });
 });
 

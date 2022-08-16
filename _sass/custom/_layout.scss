@@ -2,7 +2,7 @@
     display: flex;
     place-content: space-between;
     padding: 1.3em;
-    overflow: hidden;
+    overflow: visible;
     z-index: 2;
     top: 0px;
     position: sticky;
@@ -44,13 +44,14 @@
     }
 
     nav {
-        display: true;
-        transform: translateX(100%);
+        display: block;
+        visibility: hidden;
+        opacity: 0;
         transition: $mobile-menu-transition ease-in-out;
         position: fixed;
         top: 0;
         right: 0;
-        width: 60vw;
+        width: 50vw;
         background: var(--mobile-menu-color);
         color: var(--background-color);
         height: 100vh;
@@ -140,8 +141,8 @@
         text-decoration: underline;
     }
     .mobile-menu-active {
-        display: block;
-        transform: translateX(0);
+        visibility: visible;
+        opacity: 1;
         transition: $mobile-menu-transition ease-in-out;
     }
 }
