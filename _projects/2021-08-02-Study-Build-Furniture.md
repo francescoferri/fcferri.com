@@ -1,5 +1,5 @@
 ---
-title: "Study Build - Modular Forniture"
+title: "Study Build - Modular Furniture"
 categories: work
 image: /projects/audio-rack.jpg
 ---

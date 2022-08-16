@@ -21,19 +21,19 @@ document.querySelectorAll(".nav-menu-item").forEach((item) => {
 
 // show nav on scroll up
 window.onscroll = function () {
-    var navHeigth = navContainer.clientHeight;
+    var navHeight = navContainer.clientHeight;
     currentScrollTop = document.documentElement.scrollTop;
 
     if (
         lastScroll < currentScrollTop &&
-        currentScrollTop > navHeigth + navHeigth
+        currentScrollTop > navHeight + navHeight
     ) {
         document.querySelector(".nav-container").style.top =
-            "-" + navHeigth + "px";
+            "-" + navHeight + "px";
         nav.classList.remove("mobile-menu-active");
     } else if (
         lastScroll - currentScrollTop > 2 &&
-        !(currentScrollTop <= navHeigth)
+        !(currentScrollTop <= navHeight)
     ) {
         document.querySelector(".nav-container").style.top = "0px";
         nav.classList.remove("mobile-menu-active");

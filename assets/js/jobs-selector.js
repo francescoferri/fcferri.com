@@ -9,7 +9,7 @@ for (var i = 0; i < elems.length; i++) {
 }
 
 function showDiv(id) {
-    // Reset all active pannels
+    // Reset all active panels
     var elems = document.getElementsByClassName("job");
 
     for (var i = 0; i < elems.length; i++) {
