@@ -44,7 +44,7 @@
     }
 
     nav {
-        display: none;
+        display: true;
         transform: translateX(100%);
         transition: $mobile-menu-transition ease-in-out;
         position: fixed;
