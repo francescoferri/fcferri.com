@@ -16,8 +16,9 @@
         nav {
             display: flex;
             justify-content: space-between;
+            visibility: visible;
+            opacity: 1;
             transition: none;
-            transform: translateX(0%);
             background: none;
             position: unset;
             height: auto;
