@@ -410,14 +410,28 @@
         overflow: hidden;
 
         .about-me-text {
+            display: flex;
+            flex-direction: column;
             padding: 0.5em 1.5em;
-            .my-portrait {
-                height: 0;
-            }
+
             h3 {
                 margin: 0em 0em 1em 0em;
             }
+            .portrait-wrapper {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+
+                .portrait-img {
+                    margin: 2em 0em 1em 0em;
+                    max-width: 60%;
+                    border-radius: $border-radius-cards;
+                }
+            }
         }
+
         .fun-section {
             display: flex;
             flex-direction: column;
