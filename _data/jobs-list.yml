@@ -24,3 +24,12 @@
   range: May 2020 - Aug 2021
   bullets:
       - Performed maintenance on Lasers using composite materials for structural components, refurbishing school’s fleet; implemented quality control measures and cost analysis to determine repair approach
+
+- title: Mechanical Member
+  link: https://www.ubcsailbot.org/
+  company-name: UBC Sailbot
+  id: ubc-sailbot
+  range: May 2020 - Present
+  bullets:
+      - Researched wingsail design for new vessel under development, used SolidWorks CFD and Ansys to evaluate models and iterate design
+      - Provided support during sub-system integration phase of the current vessel, to ensure all devices were interacting correctly prior to vessel deployment
