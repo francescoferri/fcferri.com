@@ -12,7 +12,7 @@ permalink: /cv/
         >Download CV</a
     >
     <a
-        href="mailto:{{ site.data.social-media.email.id }}?subject=From%20francescoferri.github.io"
+        href="mailto:{{ site.data.social-media.email.id }}?subject=From%20fcferri.com"
         class="classic-cta"
         >Hire Me!</a
     >
