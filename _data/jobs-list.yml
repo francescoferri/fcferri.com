@@ -1,21 +1,35 @@
+- title: Naval Engineering Intern
+  link: www.capilanomaritime.com
+  company-name: Capilano Maritime Design
+  id: cmdl
+  range: Jan 2023 - Present
+  bullets:
+    - Used fluids and thermodynamic principles to design an exhaust arrangement for a Tug, minimizing noise and meeting requirements set by industry regulations.
+    - Modelled a crane-barge mounting platform in Solidworks, evaluating the structural modification in Ansys FEA to validate the safety margins of the design.
+    - Collaborated in a ship survey to assess structural damages, created LIDAR scans to model damage accurately; with the team, developed repair plans.
+    - Used Autodesk to design fuel and ballast tanks system on a 20m Tug following ABS regulations.
+
 - title: Mechanical Engineering Intern
   link: https://www.study-build.com/
   company-name: Study-Build
   id: study-build
   range: May 2021 - Dec 2021
   bullets:
-    - Developed paper loading machine to streamline production of thermally performant cardboard boxes, reducing use of EPS packaging in seafood industry
+    - Led development of software for paper loading machine with C++ and Arduino platform by following value and KPI based approach; decreased loading time and increased safety of loading machine.
+    - Developed a paper loading machine to streamline the production of thermally performant cardboard boxes, reducing the use of EPS packaging in the seafood industry.
     - Used DFM/A principles to design gantry structure of paper loading machine, decreasing manufacturing costs during CNC machining and 3D printing
     - Designed modular storage platform for electronics, servers and office supplies, allowing users to customize storage modules based on their needs
 
-- title: Mechanical Member
+- title: Wing Sail Member
   link: https://www.ubcsailbot.org/
   company-name: UBC Sailbot
   id: ubc-sailbot
   range: May 2020 - Present
   bullets:
-    - Researched wingsail design for new vessel under development, used SolidWorks CFD and Ansys to evaluate models and iterate design
-    - Provided support during sub-system integration phase of the current vessel, to ensure all devices were interacting correctly prior to vessel deployment
+    - Evaluated wing sail design from a mathematical perspective investigating weight, lift, drag and shape to find the best optimization path; used parametric equations and Matlab model.
+    - Used SolidWorks and Ansys Fluent developing wing sail models to be validated in wind tunnel testing.
+    - Revised current boat rigging and implemented modifications to strengthen the design.
+    - Designed wind sensor mounting bracket using sheet metal material.
 
 - title: Repair Technician
   link: https://ubreakifix.com/
@@ -25,11 +39,3 @@
   bullets:
     - Collaborated with a team of 5 technicians to design flowcharts tailored to manufacturer’s specific repair procedures, reducing repair times and human error, adding to training tools for new staff.
     - Managed daily repair cues to deliver reliable repairs on time, ensuring customer satisfaction with average repair time of 2 hours
-
-- title: Sailing Instructor
-  link: https://goo.gl/maps/v2U6X1iFwGTdTewJ6
-  company-name: Sailing School
-  id: sailing-school
-  range: May 2020 - Aug 2021
-  bullets:
-    - Performed maintenance on Lasers using composite materials for structural components, refurbishing school’s fleet; implemented quality control measures and cost analysis to determine repair approach
