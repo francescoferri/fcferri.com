@@ -8,7 +8,8 @@ While working at Study Build in collaboration with G2CNC, we designed a machine 
 
 Designing the machine from the ground up allowed me to learn both hardware and software design, while developing tools to collaborate with the rest of the team.
 
-## What
+## Hardware
+### What
 
 {:refdef: style="text-align: center;"}
 ![My Image](/images/projects/sheet-loader-CAD.jpg){:class="project-post-image"}
@@ -18,7 +19,7 @@ Designing the machine from the ground up allowed me to learn both hardware and s
 - Store paper pile allowing operators to leave machine unattended while getting live updates about machine’s status
 - Performed a needs analysis to initiate design process defining requirements, user driven values and KPI metrics
 
-## How
+### How
 
 {:refdef: style="text-align: center;"}
 ![My Image](/images/projects/sheet-loader-closeup.jpg){:class="project-post-image"}
@@ -28,7 +29,7 @@ Designing the machine from the ground up allowed me to learn both hardware and s
 - Fusion 360 allowed me to apply DFM principles for expensive CNC parts, decreasing manufacturing failure rates and saving resources during development
 - Used 80/20 platform as a building material for flexible prototyping
 
-## Results
+### Results
 
 {:refdef: style="text-align: center;"}
 ![My Image](/images/projects/sheet-loader.jpg){:class="project-post-image"}
@@ -37,3 +38,6 @@ Designing the machine from the ground up allowed me to learn both hardware and s
 - Design fulfilled its purpose by decreasing loading times from 60 to 15s.
 - Increased safety of operators, while retaining high precision during paper indexing.
 - Intuitive user interface for ease of operation
+
+## Software
+

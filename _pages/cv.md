@@ -14,6 +14,6 @@ permalink: /cv/
     <a
         href="mailto:{{ site.data.social-media.email.id }}?subject=From%20fcferri.com"
         class="classic-cta"
-        >Hire Me!</a
+        >Email Me!</a
     >
 </section>
