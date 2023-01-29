@@ -4,7 +4,7 @@ markdown: kramdown
 include: [_pages, _node_modules]
 
 baseurl: /
-url: https://francescoferri.github.io/fcferri.com
+url: https://francescoferri.github.io/fcferri.com/
 
 collections:
     projects:
