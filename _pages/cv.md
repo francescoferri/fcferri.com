@@ -6,7 +6,7 @@ permalink: /cv/
 
 <section class="cv">
     <a
-        href="/assets/Francesco_Ferri_CV.pdf"
+        href="/assets/francesco_ferri_resume.pdf"
         class="classic-cta"
         download
         >Download CV</a
