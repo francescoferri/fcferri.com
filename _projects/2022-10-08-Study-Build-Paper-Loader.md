@@ -62,7 +62,7 @@ With these user stories, I developed a C++ library following the system architec
 ![My Image](/images/projects/sheet-loader-P1AM.jpg){:class="project-post-image"}
 {: refdef}
 
-After a long selection process, the hardened version of the Arduino made by AutomationDirect became our microcontroller (seen above). The platform also allowed for expansion by attaching different modules to the main microcontroller. This is an example of how we addressed all of our user stories.
+After a long selection process, the hardened version of the Arduino made by AutomationDirect became our microcontroller, seen above. The platform also allowed for expansion by attaching different modules to the main microcontroller. This is an example of how we addressed all of our user stories.
 
 I developed the code gradually by introducing new features every week, ensuring to perform tests after every integration. Sprints and scrums kept me up to date with the rest of the team and made us collaborate more efficiently.
 
@@ -75,8 +75,8 @@ I developed the code gradually by introducing new features every week, ensuring 
 - Addressed all of the requested user stories
 - Created a codebase that is simple to re-factor and navigate
 - An email client through a Raspberry Pi, for operator notifications
-- Menus and operational modes allow operators to customize machine behaviour
+- Menus and operational modes allow operators to customize machine behavior
 - Safety features:
   - E-Stop handling
-  - Soft restart of th emachine
+  - Soft restart of the machine
   - Halt mode to de-pressurize pneumatics in case of limb detection
